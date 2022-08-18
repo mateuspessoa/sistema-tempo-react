@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;700&display=swap');
+
+.header{
+    display: flex;
+
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 42%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    background-color: #051a33d0;
+    color: #4a6fa1;
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: #4a6fa1;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    right: 20px;
+    background-color: rgb(3, 3, 89);
+}
+
+.sessao-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    margin-top: 20px;
+}
+
+.principal {
+    display: flex;
+    width: 45%;
+    height: 100%;
+    background-color: #051a33;
+    border-radius: 20px;
+}
+
+.esquerda {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-esquerdo {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.conteudo-esquerdo h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #4a6fa1;
+    margin-left: 20px;
+}
+
+.conteudo-esquerdo h4 {
+    color: #4a6fa1;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+.conteudo-esquerdo p {
+    font-size: 20px;
+    margin-top: -9px;
+    color: #7b98b2;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.temp {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.temp h1 {
+    color: #4a6fa1;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.temp img {
+    width: 100px;
+    height: auto;
+}
+
+.direita {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-direita {
+    margin-left: 25px;
+    margin-top: 70px;
+}
+
+.conteudo-direita h4 {
+    color: #4a6fa1;
+}
+
+.ma-mi {
+    color: #3a86ca;
+}
+
+.max-min {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.max-min h4 {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.caracteristicas{
+    margin-top: 20px;
+}
+
+.umidade {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.umidade p {
+    margin-left: 10px;
+    font-weight: lighter;
+    color: #2380c8;
+}
+
+.vento {
+    display: flex;
+}
+
+.vento p {
+    margin-left: 10px;
+    font-weight: lighter;
+    color: #2380c8;
+    margin-bottom: 10px;
+}
+
+.pressao {
+    display: flex;
+}
+
+.pressao p {
+    margin-left: 10px;
+    font-weight: lighter;
+    color: #2380c8;
+}
+
+.afastar-1 {
+    margin-left: 5px;
+}
+
+.afastar-2 {
+    margin-left: 25px;
+}
+
+.afastar-3 {
+    margin-left: 8px;
+}
+
+span {
+    font-weight: 400;
+    color: #3080c8;
+}
+
+.sessao-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 27vh;
+}
+
+.secundario {
+    width: 45%;
+    height: 100%;
+    background-color: #051a33;
+    border-radius: 20px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.secundario-esquerda {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secundario-esquerda h3 {
+    font-weight: lighter;
+    color: #2380c8;
+}
+
+.secundario-direita h3 {
+    font-weight: lighter;
+    color: #2380c8;
+}
+
+.secundario-esquerda span {
+    font-weight: 500;
+}
+
+.secundario-direita span {
+    font-weight: 500;
+}
+
+.nascer-sol {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.nascer-lua {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.secundario-direita{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sessao-1-falso {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+    margin-top: 50px;
+}
+
+.principal-falso {
+    width: 44%;
+    height: 40vh;
+    background-color: #051a33;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.principal-falso h1 {
+    margin-top: 25px;
+    color: #7b98b2;
+    font-size: 22px;
+}
+
+.social {
+    margin-top: 15px;
+    display: flex;
+}
+
+.social-1 {
+    margin-right: 30px;
+}
+
+.conteudo-falso {
+    margin-top: 25px;
+}
+
+.conteudo-falso h3 {
+    text-align: center;
+    font-weight: lighter;
+    color: #7b98b2;
+    font-size: 18px;
+}
+
+.final {
+    margin-top: 40px;
+}
+
+.final h4 {
+    font-size: 17px;
+    color: #7b98b2;
+}
+
+
+
+@media (max-width: 760px) {
+
+    input{
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    button{
+        margin-top: 20px;
+    }
+
+    .sessao-1{
+        height: 60vh;
+    }
+    
+    .principal {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .esquerda {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo-esquerdo h4,
+    .conteudo-esquerdo h2 {
+        text-align: center;
+    }
+
+    .temp {
+        margin-left: 40px;
+    }
+
+    .conteudo-esquerdo {
+        margin-right: 25px;
+    }
+
+    .conteudo-esquerdo p {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .direita {
+        margin-top: 70px;
+        width: 100%;
+        margin-top: -15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo-direita {
+        margin-top: -20px;
+        width: 100%;
+        margin-left: 45px;
+    }
+
+    .sessao-2 {
+        margin-bottom: 20px;
+        margin-top: 45px;
+    }
+
+    .secundario {
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+    .secundario-esquerda {
+        border-right: 1px solid #4a70a127;
+    }
+
+    .secundario-esquerda h3 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .secundario-direita h3 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .principal-falso {
+        width: 80%;
+    }
+
+    .principal-falso h1 {
+        font-size: 18px;
+    }
+
+    .conteudo-falso h3 {
+        font-size: 14px;
+    }
+
+    .final h4 {
+        font-size: 16px;
+    }
+}
