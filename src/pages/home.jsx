@@ -163,7 +163,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="conteudo-falso">
-                        <h3>Este projeto consome os dados da Weather API e foi desenvolvido utilizando o React JS. O objetivo desse projeto é exibir os dados metereológicos atuais da cidade que for pesquisada pelo usuário.</h3>
+                        <h3>Este projeto consome os dados da Weather API e foi desenvolvido utilizando o React JS. O objetivo desse projeto é exibir os dados meteorológicos atuais da cidade que for pesquisada pelo usuário.</h3>
                     </div>
 
                     <div className="final">
